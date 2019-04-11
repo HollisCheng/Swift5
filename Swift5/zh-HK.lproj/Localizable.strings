@@ -1,0 +1,10 @@
+/* 
+  Localizable.strings
+  Swift5
+
+  Created by Hollis Cheng on 11/4/2019.
+  Copyright © 2019 Hollis Cheng. All rights reserved.
+*/
+
+"HelloMsg" = "你好 歡迎 Swift 5";
+"OK" = "確定";
