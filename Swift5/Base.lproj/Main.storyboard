@@ -50,19 +50,13 @@
                                 </connections>
                             </switch>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ENG" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5qp-K7-osX">
-                                <rect key="frame" x="241.5" y="240" width="40" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="40" id="cLt-Zq-AGv"/>
-                                </constraints>
+                                <rect key="frame" x="241.5" y="240" width="34.5" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TCHI" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aeI-FH-5hs">
-                                <rect key="frame" x="133" y="240" width="40" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="40" id="Vmd-Kn-InI"/>
-                                </constraints>
+                                <rect key="frame" x="134" y="240" width="38.5" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -74,10 +68,12 @@
                             <constraint firstItem="5qp-K7-osX" firstAttribute="top" secondItem="rR8-Vw-t7M" secondAttribute="bottom" constant="31" id="883-vp-5PP"/>
                             <constraint firstItem="dot-dr-Ram" firstAttribute="top" secondItem="rR8-Vw-t7M" secondAttribute="bottom" constant="26" id="IEu-MH-Gb9"/>
                             <constraint firstItem="u2I-rr-8sb" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="NMy-Y6-VOH"/>
+                            <constraint firstItem="aeI-FH-5hs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="134" id="QyE-zj-fba"/>
                             <constraint firstItem="rR8-Vw-t7M" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="VRl-aP-gy6"/>
                             <constraint firstItem="rR8-Vw-t7M" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="144" id="X4E-8Z-PX2"/>
                             <constraint firstItem="uep-eq-Ae0" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="aPi-Rw-Guu"/>
                             <constraint firstItem="u2I-rr-8sb" firstAttribute="top" secondItem="xYw-Gr-NeU" secondAttribute="bottom" constant="8" id="b5K-Tr-ja9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5qp-K7-osX" secondAttribute="trailing" constant="138" id="hOx-fh-nta"/>
                             <constraint firstItem="dot-dr-Ram" firstAttribute="leading" secondItem="aeI-FH-5hs" secondAttribute="trailing" constant="10" id="isr-j9-tbc"/>
                             <constraint firstItem="dot-dr-Ram" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="m04-ZX-ued"/>
                             <constraint firstItem="5qp-K7-osX" firstAttribute="leading" secondItem="dot-dr-Ram" secondAttribute="trailing" constant="10" id="maP-at-YpA"/>
