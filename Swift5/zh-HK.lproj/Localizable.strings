@@ -9,3 +9,7 @@
 "HelloMsg" = "你好 歡迎 Swift 5";
 "OK" = "確定";
 "%i views" = "%i 觀眾";
+"Change Language" = "轉語言";
+"Hello World" = "世界你好";
+"Current Language" = "現時語言";
+

@@ -16,6 +16,14 @@ func getUserDefaultsString(key:String)->String?{
     return UserDefaults.standard.string(forKey: key)
 }
 
+func getBundleLang()->String{
+    if(getAppLanguage()==Constants.TChi){
+        return Constants.zh_HK
+    }else{
+        return Constants.en
+    }
+}
+
 func getAppLanguage() -> String? {
     if(UserDefaults.standard.string(forKey: Constants.kAppLanguage) != nil){
         return getUserDefaultsString(key: Constants.kAppLanguage)

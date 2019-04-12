@@ -56,8 +56,6 @@
 		CE787EEC225F33B700137A12 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		CE787EEF225F366B00137A12 /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		CE787EF0225F366B00137A12 /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		CE787EF4225F43B300137A12 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
-		CE787EF7225F43C800137A12 /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/Main.strings"; sourceTree = "<group>"; };
 		CE88BD9D2260443B008A4DCF /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		CE88BD9F226072D0008A4DCF /* Common-Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Common-Functions.swift"; sourceTree = "<group>"; };
 		CE88BDA122607E81008A4DCF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -322,8 +320,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				CE787EB9225EF9E800137A12 /* Base */,
-				CE787EF4225F43B300137A12 /* en */,
-				CE787EF7225F43C800137A12 /* zh-HK */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

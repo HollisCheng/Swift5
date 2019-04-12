@@ -10,14 +10,20 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var lblChangeLanguage: UILabel!
+    @IBOutlet weak var lblCLTitle: UILabel!
     @IBOutlet weak var lblCurrentLanguage: UILabel!
     @IBOutlet weak var swTCHIAndENG: UISwitch!
+    @IBOutlet weak var btnHelloWorld: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        lblCurrentLanguage.text = Locale.current.languageCode
+        lblChangeLanguage.text = "Change Language".localized
+        lblCLTitle.text = "Current Language".localized
+        lblCurrentLanguage.text = getAppLanguage()
+        btnHelloWorld.setTitle("Hello World".localized, for: .normal)
         
         if(getAppLanguage()==Constants.TChi){
             swTCHIAndENG.isOn = false
@@ -43,11 +49,20 @@ class ViewController: UIViewController {
         if(sender.isOn == true){
             print("UISwitch is now ON")
             saveUserDefaultsString(key: Constants.kAppLanguage,value: Constants.en)
+            reloadData()
         }else{
             print("UISwitch is now OFF")
             saveUserDefaultsString(key: Constants.kAppLanguage,value: Constants.TChi)
+            reloadData()
         }
     }
     
+    
+    func reloadData(){
+        lblChangeLanguage.text = "Change Language".localized
+        lblCLTitle.text = "Current Language".localized
+        lblCurrentLanguage.text = getAppLanguage()
+        btnHelloWorld.setTitle("Hello World".localized, for: .normal)
+    }
 }
 

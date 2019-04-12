@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
          print("Locale.preferredLanguages[0]="+Locale.preferredLanguages[0])
         //if have app language display otherwise save it into user defauls "en" / "zh_HK"
         if(getAppLanguage()==nil){
-            if(LLocale.preferredLanguages[0]==Constants.en){
+            if(Locale.preferredLanguages[0]==Constants.en){
                 saveUserDefaultsString(key: Constants.kAppLanguage, value: Constants.en)
             }else if(Locale.preferredLanguages[0]==Constants.zh_HK){
                 saveUserDefaultsString(key: Constants.kAppLanguage, value: Constants.TChi)
