@@ -6,9 +6,12 @@
   Copyright © 2019 Hollis Cheng. All rights reserved.
 */
 
-"HelloMsg" = "Hello Welcome Swift 5";
+"HelloMsgTitle" = "Hello Welcome Swift 5";
+"HelloMsg" = "Hello Welcome Hollis CHENG";
 "OK" = "OK";
 "%i views" = "%i views";
 "Change Language" = "Change Language";
 "Hello World" = "Hello World";
 "Current Language" = "Current Language";
+"Item1CenterText" = "This is center text of Item 1";
+"Item2CenterText" = "This is center text of Item 2";

@@ -6,10 +6,12 @@
   Copyright © 2019 Hollis Cheng. All rights reserved.
 */
 
-"HelloMsg" = "你好 歡迎 Swift 5";
+"HelloMsgTitle" = "你好 歡迎 Swift 5";
+"HelloMsg" = "你好 歡迎 Hollis CHENG";
 "OK" = "確定";
 "%i views" = "%i 觀眾";
 "Change Language" = "轉語言";
 "Hello World" = "世界你好";
 "Current Language" = "現時語言";
-
+"Item1CenterText" = "這是物件一的置中字";
+"Item2CenterText" = "這是物件二的置中字";

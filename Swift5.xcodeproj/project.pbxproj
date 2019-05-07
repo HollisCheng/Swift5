@@ -16,9 +16,12 @@
 		CE787ECD225EF9EA00137A12 /* Swift5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE787ECC225EF9EA00137A12 /* Swift5Tests.swift */; };
 		CE787ED8225EF9EA00137A12 /* Swift5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE787ED7225EF9EA00137A12 /* Swift5UITests.swift */; };
 		CE787EEB225F33B700137A12 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE787EED225F33B700137A12 /* Localizable.strings */; };
-		CE88BD9E2260443B008A4DCF /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE88BD9D2260443B008A4DCF /* StringExtension.swift */; };
+		CE88BD9E2260443B008A4DCF /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE88BD9D2260443B008A4DCF /* Extension.swift */; };
 		CE88BDA0226072D0008A4DCF /* Common-Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE88BD9F226072D0008A4DCF /* Common-Functions.swift */; };
 		CE88BDA222607E81008A4DCF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE88BDA122607E81008A4DCF /* Constants.swift */; };
+		CE989ACB2281622100115F4E /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE989ACA2281622100115F4E /* MainTabBarController.swift */; };
+		CE989ACD22816BCF00115F4E /* Item1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE989ACC22816BCF00115F4E /* Item1ViewController.swift */; };
+		CE989ACF2281729000115F4E /* Item2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE989ACE2281729000115F4E /* Item2ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,9 +59,12 @@
 		CE787EEC225F33B700137A12 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		CE787EEF225F366B00137A12 /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		CE787EF0225F366B00137A12 /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		CE88BD9D2260443B008A4DCF /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		CE88BD9D2260443B008A4DCF /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		CE88BD9F226072D0008A4DCF /* Common-Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Common-Functions.swift"; sourceTree = "<group>"; };
 		CE88BDA122607E81008A4DCF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CE989ACA2281622100115F4E /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		CE989ACC22816BCF00115F4E /* Item1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item1ViewController.swift; sourceTree = "<group>"; };
+		CE989ACE2281729000115F4E /* Item2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item2ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,9 +117,12 @@
 			children = (
 				CE787EB4225EF9E700137A12 /* AppDelegate.swift */,
 				CE787EB6225EF9E700137A12 /* ViewController.swift */,
-				CE88BD9D2260443B008A4DCF /* StringExtension.swift */,
+				CE989ACC22816BCF00115F4E /* Item1ViewController.swift */,
+				CE989ACE2281729000115F4E /* Item2ViewController.swift */,
+				CE88BD9D2260443B008A4DCF /* Extension.swift */,
 				CE88BD9F226072D0008A4DCF /* Common-Functions.swift */,
 				CE88BDA122607E81008A4DCF /* Constants.swift */,
+				CE989ACA2281622100115F4E /* MainTabBarController.swift */,
 				CE787EED225F33B700137A12 /* Localizable.strings */,
 				CE787EB8225EF9E800137A12 /* Main.storyboard */,
 				CE787EBE225EF9E900137A12 /* Assets.xcassets */,
@@ -275,9 +284,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE88BD9E2260443B008A4DCF /* StringExtension.swift in Sources */,
+				CE88BD9E2260443B008A4DCF /* Extension.swift in Sources */,
 				CE787EB7225EF9E700137A12 /* ViewController.swift in Sources */,
 				CE787EB5225EF9E700137A12 /* AppDelegate.swift in Sources */,
+				CE989ACD22816BCF00115F4E /* Item1ViewController.swift in Sources */,
+				CE989ACB2281622100115F4E /* MainTabBarController.swift in Sources */,
+				CE989ACF2281729000115F4E /* Item2ViewController.swift in Sources */,
 				CE88BDA0226072D0008A4DCF /* Common-Functions.swift in Sources */,
 				CE787EBD225EF9E800137A12 /* Swift5.xcdatamodeld in Sources */,
 				CE88BDA222607E81008A4DCF /* Constants.swift in Sources */,

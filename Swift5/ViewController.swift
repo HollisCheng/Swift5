@@ -38,7 +38,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func showMessage(){
-        let alertController = UIAlertController(title: "HelloMsg".localized, message: "HI Hollis CHENG", preferredStyle: UIAlertController.Style.alert)
+        let alertController = UIAlertController(title: "HelloMsgTitle".localized, message: "HelloMsg".localized, preferredStyle: UIAlertController.Style.alert)
         alertController.addAction(UIAlertAction(title: "OK".localized, style: .default, handler: { _ in
             NSLog("The \"OK\" alert occured.")
         }))
@@ -63,6 +63,7 @@ class ViewController: UIViewController {
         lblCLTitle.text = "Current Language".localized
         lblCurrentLanguage.text = getAppLanguage()
         btnHelloWorld.setTitle("Hello World".localized, for: .normal)
+        NotificationCenter.default.post(name:Notification.Name(rawValue: "changeLanguage"),object: nil)
     }
 }
 
